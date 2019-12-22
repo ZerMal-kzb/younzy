@@ -19,6 +19,7 @@
     "dependencies": {
         "chalk": "^3.0.0",
         "discord.js": "^11.5.1",
+        "graceful-fs": "^4.2.3",
         "path": "^0.12.7"
     }
 }
