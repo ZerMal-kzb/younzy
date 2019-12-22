@@ -25,10 +25,6 @@ module.exports = class Younzy extends Client {
      * @returns {Promise<void>}
      */
     async initialize(client) {
-        if (!client.config.tokens.discordBot) {
-            client.config.tokens.discordBot = process.env.TOKEN;
-        }
-
         // chargement des handlers a faire
         client.login(client.config.tokens.discordBot);
     }
