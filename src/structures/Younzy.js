@@ -14,7 +14,7 @@ module.exports = class Younzy extends Client {
         this.slowmdoe = new Collection();
 
         // Config
-        this.config = require("../config/config"); // chargement du fichier config
+        this.config = require("../config/config") || require("../config/config.example"); // chargement du fichier config
         this.logger = require("./Logger"); // imporation du logger
         this.package = require("../../package"); // chargement du package
     }
@@ -25,6 +25,10 @@ module.exports = class Younzy extends Client {
      * @returns {Promise<void>}
      */
     async initialize(client) {
+        if (!client.config.tokens.discordBot) {
+            client.config.tokens.discordBot = process.env.TOKEN;
+        }
+
         // chargement des handlers a faire
         client.login(client.config.tokens.discordBot);
     }
