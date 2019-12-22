@@ -1,0 +1,19 @@
+{
+    "name": "younzy",
+    "version": "1.0.0",
+    "description": "Official Younzy Bot. For the community, by the community",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/younzy/younzy.git"
+    },
+    "author": "icecakke",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/younzy/younzy/issues"
+    },
+    "homepage": "https://github.com/younzy/younzy#readme"
+}
