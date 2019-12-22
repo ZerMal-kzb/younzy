@@ -10,6 +10,9 @@
         <a href="https://discord.gg/WQC3QGD">
             <img src="https://discordapp.com/api/guilds/643930383536095245/embed.png" alt="Discord Server" />
         </a>
+        <a href="https://travis-ci.com/younzy/younzy">
+            <img src="https://travis-ci.com/younzy/younzy.svg" alt="Build Status" />
+        </a>
         <a href="https://www.codefactor.io/repository/github/younzy/younzy">
             <img src="https://www.codefactor.io/repository/github/younzy/younzy/badge" alt="CodeFactor" />
         </a>
