@@ -15,5 +15,8 @@
     "bugs": {
         "url": "https://github.com/younzy/younzy/issues"
     },
-    "homepage": "https://github.com/younzy/younzy#readme"
+    "homepage": "https://github.com/younzy/younzy#readme",
+    "dependencies": {
+        "discord.js": "^11.5.1"
+    }
 }
