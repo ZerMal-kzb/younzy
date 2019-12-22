@@ -18,6 +18,7 @@
     "homepage": "https://github.com/younzy/younzy#readme",
     "dependencies": {
         "chalk": "^3.0.0",
-        "discord.js": "^11.5.1"
+        "discord.js": "^11.5.1",
+        "fs": "0.0.1-security"
     }
 }
