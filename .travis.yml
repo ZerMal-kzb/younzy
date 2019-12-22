@@ -3,11 +3,11 @@ language: node_js
 node_js:
   - 12
   - 13
-  
+
 cache:
   directories:
     - node_modules
-  
+
 install: npm install --save
-  
+
 script: npm start
