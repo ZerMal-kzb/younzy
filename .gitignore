@@ -1,0 +1,8 @@
+# Dependency
+node_modules/
+
+# IDEA
+.idea/
+
+# Bot config
+src/config/config.js
