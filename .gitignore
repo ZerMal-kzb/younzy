@@ -1,7 +1,7 @@
-# Dependency
+# Dependency directory
 node_modules/
 
-# IDEA
+# IDEA directory
 .idea/
 
 # Bot config
