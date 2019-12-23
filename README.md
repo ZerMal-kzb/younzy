@@ -28,4 +28,4 @@ Younzy is a Discord security bot that uses the [Discord.JS](https://github.com/d
 
 ## 👉 Legal stuff
 
-Younzy is licensed under the GPL 3.0 license. See the file [LICENSE](https://github.com/younzy/younzy/blob/master/LICENSE) for more information. If you plan to use some or all of the code in your own project, I would appreciate it if you could include some form of credit somewhere.
+Younzy is licensed under the `GPL 3.0` license. See the file [LICENSE](https://github.com/younzy/younzy/blob/master/LICENSE) for more information. If you plan to use some or all of the code in your own project, I would appreciate it if you could include some form of credit somewhere.
