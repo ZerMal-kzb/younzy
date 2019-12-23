@@ -1,11 +1,20 @@
-// imporation de younzy
-const Younzy = require("./structures/Younzy");
+/**
+ * @file The main file the makes everything work
+ * @author IceCakke
+ * @author Black Blizzard
+ * @author Zermal.kzb
+ * @copyright Copyright (c) 2019 IceCakke, Black Blizzard, Zermal.kzb and the repository contributors
+ * @licence MIT
+ */
 
-// on créé un nouveau client
+// Imports
+const Younzy = require("./lib/Younzy");
+
+// Client stuff
 const client = new Younzy({
     disableEveryone: true,
     fetchAllMembers: true
 });
 
-// initialisaion du client
+// Intialize
 client.initialize(client);
