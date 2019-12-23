@@ -1,33 +1,43 @@
 module.exports = {
-    main: {
-        botName: "", // nom du bot
-        botID: "", // id du bot
-        botVersion: (client) => client.package.version, // on récupére la version du bot
-        defaultPrefix: "", // prefix par défaut
-        defaultLanguage: "" // langage par défaut
+    tokens: {
+        // Tokens for APIs used by different commands
+        discordBot: "", // Token used for authenticating with Discord. Can be found at : https://discordapp.com/developers/applications/BOT-ID/bots REPLACE BOT-ID by your BOT ID
+        discordSecret: "" // Token used for connect Discord to WebSite. Can be found at : https://discordapp.com/developers/applications/BOT-ID/information REPLACE BOT-ID by your BOT ID
     },
-    tokens: { // les différentes clés du bot
-        discordBot: "", // clé pour le bot discord
-        discordSecret: "" // clé pour le site
+
+    general: {
+        // Configuration options for the main bot
+        botName: "",
+        botID: "",
+        botVersion: (client) => client.package.version,
+
+        // Default configuration
+        defaultPrefix: "", // Default prefix to use
+        defaultLanguage: "", // Default language to use
+
+        // Embed
+        embedColor: "",
+        embedFooter: "",
+
+        // Links
+        supportServer: "",
+        inviteBot: "",
+
+        // Owners
+        owners: [
+            ""
+        ]
     },
-    embed: {
-        color: "",
-        footer: ""
-    },
-    emotes: { // liste des emotes sous le format :emote:
-        oui: "",
-        non: "",
-        load: ""
-    },
-    emotesID: { // liste des emotes sous le format <:emote:ID>
-        oui: "",
-        non: ""
-    },
-    links: {
-        supportServer: "", // lien vers le serveur discord
-        inviteBot: "" // lien pour invite le bot
-    },
-    owners: [ // id du/des propriétaire(s) pour les commandes à réstriction
-        ""
-    ]
+
+    emotes: {
+        // emotes list
+        yes: "",
+        no: "",
+        load: "",
+
+        // emotes ID list
+        yesID: "",
+        noID: "",
+        loadID: ""
+    }
 };
