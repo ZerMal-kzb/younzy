@@ -28,10 +28,10 @@ Younzy is a Discord security bot that uses the [Discord.JS](https://github.com/d
 
 ## 📝 Contribution
 
-If you wish to contribute to the project, you must follow the rules [here](https://github.com/younzy/younzy/blob/master/.github/CONTRIBUTING.md).  
+If you wish to contribute to the project, you must follow [these](https://github.com/younzy/younzy/blob/master/.github/CONTRIBUTING.md) rules.  
 Before creating an issue, please ensure that it hasn't already been reported/suggested.  
-All contributions must repect some rules according to the [Discord's TOS](https://discordapp.com/terms).  
-And if you have a question, please ask it on the [Younzy Discord](https://discord.gg/WQC3QGD) instead of opening an issue.
+All contributions must repect some rules according to the Discord's [TOS](https://discordapp.com/terms).  
+And if you have any question, please ask it on the [Younzy Discord server](https://discord.gg/WQC3QGD) instead of opening an issue on Github.
 
 ## 👉 Legal stuff
 
